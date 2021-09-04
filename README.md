@@ -12,6 +12,8 @@ Make sure you check for false positives every now and then.
 
 Messages from your existing contacts and senders using iMessage won't be filtered per https://developer.apple.com/documentation/sms_and_call_reporting/sms_and_mms_message_filtering
 
+![UI Preview](https://user-images.githubusercontent.com/31393016/132107452-e2a477e9-9b53-48b4-af87-020de8566d89.png)
+
 ### Activation Steps
 1. Install App
 2. Go to `Settings>Messages>Unknown & Spam (Message Filtering Section)` and select `SMSFilter` (the name of this app) as your SMS Filtering solution.
