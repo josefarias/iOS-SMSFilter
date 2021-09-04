@@ -14,7 +14,40 @@
 		8281FF2626E3E5B800D7D63A /* SMSFilter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF2426E3E5B800D7D63A /* SMSFilter.xcdatamodeld */; };
 		8281FF2826E3E5BA00D7D63A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8281FF2726E3E5BA00D7D63A /* Assets.xcassets */; };
 		8281FF2B26E3E5BA00D7D63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8281FF2926E3E5BA00D7D63A /* LaunchScreen.storyboard */; };
+		8281FF3426E3E66E00D7D63A /* Word+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF3226E3E66E00D7D63A /* Word+CoreDataClass.swift */; };
+		8281FF3526E3E66E00D7D63A /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF3326E3E66E00D7D63A /* Word+CoreDataProperties.swift */; };
+		8281FF3E26E3EF1C00D7D63A /* MessageFilterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF3D26E3EF1C00D7D63A /* MessageFilterExtension.swift */; };
+		8281FF4226E3EF1C00D7D63A /* Filter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8281FF3B26E3EF1C00D7D63A /* Filter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8281FF4726E3F05500D7D63A /* SMSFilter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF2426E3E5B800D7D63A /* SMSFilter.xcdatamodeld */; };
+		8281FF4826E3F33800D7D63A /* Word+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF3226E3E66E00D7D63A /* Word+CoreDataClass.swift */; };
+		8281FF4926E3F33B00D7D63A /* Word+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF3326E3E66E00D7D63A /* Word+CoreDataProperties.swift */; };
+		8281FF4D26E3F9FB00D7D63A /* CustomPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF4C26E3F9FB00D7D63A /* CustomPersistentContainer.swift */; };
+		8281FF4E26E3F9FB00D7D63A /* CustomPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8281FF4C26E3F9FB00D7D63A /* CustomPersistentContainer.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8281FF4026E3EF1C00D7D63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8281FF1026E3E5B800D7D63A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8281FF3A26E3EF1C00D7D63A;
+			remoteInfo = Filter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8281FF4626E3EF1C00D7D63A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8281FF4226E3EF1C00D7D63A /* Filter.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8281FF1826E3E5B800D7D63A /* SMSFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMSFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +59,26 @@
 		8281FF2726E3E5BA00D7D63A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8281FF2A26E3E5BA00D7D63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8281FF2C26E3E5BA00D7D63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8281FF3226E3E66E00D7D63A /* Word+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataClass.swift"; sourceTree = "<group>"; };
+		8281FF3326E3E66E00D7D63A /* Word+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8281FF3B26E3EF1C00D7D63A /* Filter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Filter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8281FF3D26E3EF1C00D7D63A /* MessageFilterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageFilterExtension.swift; sourceTree = "<group>"; };
+		8281FF3F26E3EF1C00D7D63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8281FF4A26E3F79600D7D63A /* SMSFilter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SMSFilter.entitlements; sourceTree = "<group>"; };
+		8281FF4B26E3F88200D7D63A /* Filter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Filter.entitlements; sourceTree = "<group>"; };
+		8281FF4C26E3F9FB00D7D63A /* CustomPersistentContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPersistentContainer.swift; sourceTree = "<group>"; };
+		8281FF4F26E409E500D7D63A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8281FF1526E3E5B800D7D63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8281FF3826E3EF1C00D7D63A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,7 +91,9 @@
 		8281FF0F26E3E5B800D7D63A = {
 			isa = PBXGroup;
 			children = (
+				8281FF4F26E409E500D7D63A /* README.md */,
 				8281FF1A26E3E5B800D7D63A /* SMSFilter */,
+				8281FF3C26E3EF1C00D7D63A /* Filter */,
 				8281FF1926E3E5B800D7D63A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				8281FF1826E3E5B800D7D63A /* SMSFilter.app */,
+				8281FF3B26E3EF1C00D7D63A /* Filter.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +110,10 @@
 		8281FF1A26E3E5B800D7D63A /* SMSFilter */ = {
 			isa = PBXGroup;
 			children = (
+				8281FF4A26E3F79600D7D63A /* SMSFilter.entitlements */,
+				8281FF3626E3E67D00D7D63A /* Word */,
 				8281FF1B26E3E5B800D7D63A /* AppDelegate.swift */,
+				8281FF4C26E3F9FB00D7D63A /* CustomPersistentContainer.swift */,
 				8281FF1D26E3E5B800D7D63A /* SceneDelegate.swift */,
 				8281FF1F26E3E5B800D7D63A /* ViewController.swift */,
 				8281FF2126E3E5B800D7D63A /* Main.storyboard */,
@@ -68,6 +123,25 @@
 				8281FF2426E3E5B800D7D63A /* SMSFilter.xcdatamodeld */,
 			);
 			path = SMSFilter;
+			sourceTree = "<group>";
+		};
+		8281FF3626E3E67D00D7D63A /* Word */ = {
+			isa = PBXGroup;
+			children = (
+				8281FF3226E3E66E00D7D63A /* Word+CoreDataClass.swift */,
+				8281FF3326E3E66E00D7D63A /* Word+CoreDataProperties.swift */,
+			);
+			path = Word;
+			sourceTree = "<group>";
+		};
+		8281FF3C26E3EF1C00D7D63A /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				8281FF4B26E3F88200D7D63A /* Filter.entitlements */,
+				8281FF3D26E3EF1C00D7D63A /* MessageFilterExtension.swift */,
+				8281FF3F26E3EF1C00D7D63A /* Info.plist */,
+			);
+			path = Filter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,15 +154,34 @@
 				8281FF1426E3E5B800D7D63A /* Sources */,
 				8281FF1526E3E5B800D7D63A /* Frameworks */,
 				8281FF1626E3E5B800D7D63A /* Resources */,
+				8281FF4626E3EF1C00D7D63A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8281FF4126E3EF1C00D7D63A /* PBXTargetDependency */,
 			);
 			name = SMSFilter;
 			productName = SMSFilter;
 			productReference = 8281FF1826E3E5B800D7D63A /* SMSFilter.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8281FF3A26E3EF1C00D7D63A /* Filter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8281FF4326E3EF1C00D7D63A /* Build configuration list for PBXNativeTarget "Filter" */;
+			buildPhases = (
+				8281FF3726E3EF1C00D7D63A /* Sources */,
+				8281FF3826E3EF1C00D7D63A /* Frameworks */,
+				8281FF3926E3EF1C00D7D63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Filter;
+			productName = Filter;
+			productReference = 8281FF3B26E3EF1C00D7D63A /* Filter.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +193,9 @@
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					8281FF1726E3E5B800D7D63A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					8281FF3A26E3EF1C00D7D63A = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -118,6 +214,7 @@
 			projectRoot = "";
 			targets = (
 				8281FF1726E3E5B800D7D63A /* SMSFilter */,
+				8281FF3A26E3EF1C00D7D63A /* Filter */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +230,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8281FF3926E3EF1C00D7D63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,13 +245,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				8281FF2026E3E5B800D7D63A /* ViewController.swift in Sources */,
+				8281FF3426E3E66E00D7D63A /* Word+CoreDataClass.swift in Sources */,
 				8281FF1C26E3E5B800D7D63A /* AppDelegate.swift in Sources */,
 				8281FF1E26E3E5B800D7D63A /* SceneDelegate.swift in Sources */,
 				8281FF2626E3E5B800D7D63A /* SMSFilter.xcdatamodeld in Sources */,
+				8281FF4D26E3F9FB00D7D63A /* CustomPersistentContainer.swift in Sources */,
+				8281FF3526E3E66E00D7D63A /* Word+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8281FF3726E3EF1C00D7D63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8281FF3E26E3EF1C00D7D63A /* MessageFilterExtension.swift in Sources */,
+				8281FF4726E3F05500D7D63A /* SMSFilter.xcdatamodeld in Sources */,
+				8281FF4826E3F33800D7D63A /* Word+CoreDataClass.swift in Sources */,
+				8281FF4E26E3F9FB00D7D63A /* CustomPersistentContainer.swift in Sources */,
+				8281FF4926E3F33B00D7D63A /* Word+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8281FF4126E3EF1C00D7D63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8281FF3A26E3EF1C00D7D63A /* Filter */;
+			targetProxy = 8281FF4026E3EF1C00D7D63A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8281FF2126E3E5B800D7D63A /* Main.storyboard */ = {
@@ -288,8 +415,10 @@
 		8281FF3026E3E5BA00D7D63A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SMSFilter/SMSFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7USQ382Z84;
 				INFOPLIST_FILE = SMSFilter/Info.plist;
@@ -297,7 +426,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.josefarias.SMSFilter;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.josefarias.Filter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,8 +436,10 @@
 		8281FF3126E3E5BA00D7D63A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SMSFilter/SMSFilter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7USQ382Z84;
 				INFOPLIST_FILE = SMSFilter/Info.plist;
@@ -316,8 +447,48 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = mx.josefarias.SMSFilter;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.josefarias.Filter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8281FF4426E3EF1C00D7D63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Filter/Filter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7USQ382Z84;
+				INFOPLIST_FILE = Filter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.josefarias.Filter.Filter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8281FF4526E3EF1C00D7D63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Filter/Filter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7USQ382Z84;
+				INFOPLIST_FILE = Filter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mx.josefarias.Filter.Filter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -340,6 +511,15 @@
 			buildConfigurations = (
 				8281FF3026E3E5BA00D7D63A /* Debug */,
 				8281FF3126E3E5BA00D7D63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8281FF4326E3EF1C00D7D63A /* Build configuration list for PBXNativeTarget "Filter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8281FF4426E3EF1C00D7D63A /* Debug */,
+				8281FF4526E3EF1C00D7D63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
